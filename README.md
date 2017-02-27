@@ -18,7 +18,7 @@ this plugin is an example that demonstrates how to create a grid with a css flex
 to get data from the online google doc, set the data source to “remote”, but you’ll have to run it off of a web server because the php won’t run in the AT. set the data source to “local” (which is default) when running it in the AT, and it’ll grab data from the included json files.
 
 
-**things learned while making this component:**
+## Things learned while making this component
 
 fetching a collection from external data
 
@@ -39,12 +39,14 @@ adding/removing views
 including extra assets
 
 
-**usage:**
+
+## Usage
 
 this component is more for reference than production. it’s suggested to duplicate the component and re-code it to fit your own scenario.
 
 
-**possibilities:**
+
+## Possibilities
 
 scale up or down (more/less flexboxes)
 
@@ -56,7 +58,7 @@ and in theory, the logic involved could probably be expanded to populate an enti
 
 
 
-## Reference Links:
+## Reference Links
 
 [flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
