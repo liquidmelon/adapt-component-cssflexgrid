@@ -1,0 +1,15 @@
+{
+  "_id": "c-05",
+  "_layout": "full",
+  "_type": "component",
+  "_parentId": "b-05",
+  "body": "",
+  "displayTitle": "",
+  "title": "CSS Flex Grid",
+  "_isAvailable": true,
+  "_isOptional": false,
+  "_classes": "",
+  "_component": "cssflexgrid",
+  "instruction": "",
+  "theSource": "local"
+}

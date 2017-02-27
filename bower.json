@@ -1,0 +1,17 @@
+{
+  "name": "adapt-component-cssflexgrid",
+  "version": "0.0.1",
+  "framework": "^2.0.0",
+  "homepage": "https://github.com/liquidmelon/adapt-component-cssflexgrid",
+  "issues": "https://github.com/liquidmelon/adapt-component-cssflexgrid",
+  "displayName" : "CSS Flex Grid",
+  "component" : "cssflexgrid",
+  "description": "a grid component populated with json data",
+  "main": "/js/adapt-component-cssflexgrid.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_cssflexgrid"
+}
