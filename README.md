@@ -12,10 +12,13 @@
 
 ## Notes
 
-this plugin is an example that demonstrates how to create a grid with a css flexbox and fill it with data from a public google doc. data can also be loaded from a local json file. the data is passed into a separate template and rendered in it’s own view, which is then rendered in the component’s view. an svg icon is used as a clickable link.
+this plugin is an example that demonstrates how to create a grid with a css flexbox and fill it with data from a public google doc.* data can also be loaded from a local json file. the data is passed into a separate template and rendered in it’s own view, which is then rendered in the component’s view. an svg icon is used as a clickable link.
 
 
 to get data from the online google doc, set the data source to “remote”, but you’ll have to run it off of a web server because the php won’t run in the AT. set the data source to “local” (which is default) when running it in the AT, and it’ll grab data from the included json files.
+
+*[example document](https://docs.google.com/spreadsheets/d/1XDPyohslGe3bFrLo4U_Rr-muIzRVojnShYmmEKqOqnQ/edit#gid=102731156) courtesy of Helen Maffin
+
 
 
 ## Things learned while making this component
