@@ -1,0 +1,83 @@
+[
+  {
+      "columnA": "01\/01\/2016",
+      "columnB": "adapt-contrib-boxmenu",
+      "columnC": "https:\/\/github.com\/adaptlearning\/adapt-contrib-boxmenu",
+      "columnD": "Y - part of standard install",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 0
+  }, {
+      "columnA": "01\/01\/2016",
+      "columnB": "adapt-contrib-vanilla",
+      "columnC": "https:\/\/github.com\/adaptlearning\/adapt-contrib-vanilla",
+      "columnD": "Y - part of standard install",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 1
+  }, {
+      "columnA": "01\/01\/2016",
+      "columnB": "adapt-iceCream",
+      "columnC": "https:\/\/github.com\/kirsty-hames\/adapt-iceCream",
+      "columnD": "no - missing properties.schema",
+      "columnE": "",
+      "columnF": "",
+      "id": 2
+  }, {
+      "columnA": "01\/01\/2016",
+      "columnB": "adapt-mps-theme",
+      "columnC": "https:\/\/github.com\/adamlaird\/adapt-mps-theme",
+      "columnD": "no - missing properties.schema",
+      "columnE": "",
+      "columnF": "",
+      "id": 3
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-bgImages",
+      "columnC": "https:\/\/github.com\/LearnChamp\/adapt-bgImages",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "A theme based on the core vanilla theme that adds fixed positioned full screen background images to the menu and pages.",
+      "id": 4
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-kineo-theme",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-kineo-theme",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 5
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-theme-community",
+      "columnC": "https:\/\/github.com\/taylortom\/adapt-theme-community",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "Adapt theme to mirror the community site",
+      "id": 6
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-theme-odi",
+      "columnC": "https:\/\/github.com\/davetaz\/adapt-theme-odi",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 7
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-theme-se",
+      "columnC": "https:\/\/github.com\/bcave\/adapt-theme-se",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 8
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-theme-idb",
+      "columnC": "https:\/\/github.com\/theodi\/adapt-theme-idb",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 9
+  }
+]

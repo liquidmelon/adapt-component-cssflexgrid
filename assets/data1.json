@@ -1,0 +1,83 @@
+[
+  {
+      "columnA": "13\/01\/17",
+      "columnB": "adapt-extention menuImage",
+      "columnC": "https:\/\/github.com\/marcnewport\/adapt-extension-menuImage",
+      "columnD": "",
+      "columnE": "",
+      "columnF": "Adapt extension that adds an image to a menu above the title (tested with boxMenu)",
+      "id": 0
+  }, {
+      "columnA": "11\/1\/17",
+      "columnB": "adapt-inspector",
+      "columnC": "https:\/\/github.com\/tomgreenfield\/adapt-inspector",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "shows you information about articles\/blocks\/components on the page on rollover:",
+      "id": 1
+  }, {
+      "columnA": "9\/1\/17",
+      "columnB": "adapt-component-pageJumper",
+      "columnC": "https:\/\/github.com\/liquidmelon\/adapt-component-pageJumper",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "a text component with a button to jump to any article, block, or component on any page",
+      "id": 2
+  }, {
+      "columnA": "",
+      "columnB": "adapt-contrib-triggered",
+      "columnC": "https:\/\/github.com\/adaptlearning\/adapt-contrib-triggered",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "can have a hidden block with a button on it that allows it to be revealed, then hidden again",
+      "id": 3
+  }, {
+      "columnA": "",
+      "columnB": "adapt-articleBlockSlider",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-articleBlockSlider",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 4
+  }, {
+      "columnA": "",
+      "columnB": "adapt-background-switcher",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-background-switcher",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 5
+  }, {
+      "columnA": "",
+      "columnB": "adapt-cheat (now called dev tools)",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-cheat",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 6
+  }, {
+      "columnA": "",
+      "columnB": "adapt-component-spec (now called hint)",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-component-spec",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "puts a little button in the top right of your component which when clicked reveals a title and some text as a helper for the user",
+      "id": 7
+  }, {
+      "columnA": "",
+      "columnB": "adapt-pageIncompletePrompt",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-pageIncompletePrompt",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 8
+  }, {
+      "columnA": "",
+      "columnB": "adapt-search",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-search",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "excellent and customisable search functionality added to the resource draw",
+      "id": 9
+  }
+]
