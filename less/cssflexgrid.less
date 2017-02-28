@@ -1,0 +1,112 @@
+.cssflexgrid-inner {
+
+    * { box-sizing: border-box; -moz-box-sizing: border-box; }
+
+    .cfg-grid-container { border: 1px solid gray; } //added when setupInview
+
+    .cfg-button-container { overflow: auto; }
+
+    .cfg-label-container {
+      border-left: 1px;
+      border-right: 1px;
+      border-left-color: gray;
+      border-right-color: gray;
+      border-left-style: solid;
+      border-right-style: solid;
+    }
+
+    .cfg-flexbox {
+      display: -webkit-box; //added extra
+      display: -moz-box; //added extra
+      display: -ms-flexbox; //added extra
+      display: -webkit-flex; //added extra
+      display: flex; /* or inline-flex */
+      overflow: hidden;
+    }
+
+    .cfg-flexbox .cfg-col1 {
+      flex: 4.2;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      background: #eee;
+    }
+
+    .cfg-flexbox .cfg-col2 {
+      flex: 1;
+			padding: 10px;
+      display: flex;  /* necessary to center*/
+      flex-direction: column;
+      //justify-content: center;  /* adding this made it center vertically */
+      //align-items: center;  /* adding this made it center horizontally */
+      text-align: center;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+		.cfg-flexbox .cfg-col2:nth-child(even) {
+			background: #ccc;
+		}
+
+		.cfg-flexbox .cfg-col2:nth-child(odd) {
+			background: #eee;
+		}
+
+    .cfg-bold {
+      font-weight: bold;
+    }
+
+    .cfg-center {
+      justify-content: center;  /* adding this made it center vertically */
+      align-items: center;  /* adding this made it center horizontally */
+    }
+
+    button {
+      width: 25%;
+      float: left;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .visited {
+      background-color: @button-color-hover;
+    }
+
+    .cfg-svga {
+      position: relative;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border: 0;
+      cursor: pointer;
+    }
+
+    .cfg-svga:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .cfg-svgnoa {
+      position: relative;
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      border: 0;
+    }
+
+    .cfg-svgnoa:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+}
