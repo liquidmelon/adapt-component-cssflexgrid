@@ -1,0 +1,83 @@
+[
+  {
+      "columnA": "16\/01\/2017",
+      "columnB": "adapt-component-tidbits",
+      "columnC": "https:\/\/github.com\/liquidmelon\/adapt-component-tidbits",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "adds the ability for a span to launch a Notify popup",
+      "id": 0
+  }, {
+      "columnA": "13\/01\/2017",
+      "columnB": "adapt-detailed-feedback",
+      "columnC": "https:\/\/github.com\/gowithfloat\/adapt-detailed-feedback",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "Drop-in replacement for Adapt Tutor that provides more detailed feedback on questions",
+      "id": 1
+  }, {
+      "columnA": "09\/01\/2017",
+      "columnB": "adapt-componentSlider",
+      "columnC": "https:\/\/github.com\/xtreemsolution\/adapt-componentSlider",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "The extension changes the presentation of a component from being vertically stacked to horizontally ordere",
+      "id": 2
+  }, {
+      "columnA": "21\/11\/2016",
+      "columnB": "adapt-stacklist",
+      "columnC": "https:\/\/github.com\/danielstorey\/adapt-stacklist",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "reveals text a block at a time in an animated way",
+      "id": 3
+  }, {
+      "columnA": "21\/11\/2016",
+      "columnB": "adapt-flipper",
+      "columnC": "https:\/\/github.com\/danielstorey\/adapt-flipper",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "flips a box to reveal a new paragraph of text or a picture each time",
+      "id": 4
+  }, {
+      "columnA": "21\/11\/2016",
+      "columnB": "adapt-expose",
+      "columnC": "https:\/\/github.com\/danielstorey\/adapt-expose",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "reveals text and images under a panel in a variety of animated ways",
+      "id": 5
+  }, {
+      "columnA": "21\/11\/2016",
+      "columnB": "adapt-draganddrop",
+      "columnC": "https:\/\/github.com\/danielstorey\/adapt-draganddrop",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 6
+  }, {
+      "columnA": "21\/11\/2016",
+      "columnB": "adapt-backgroundScroll",
+      "columnC": "https:\/\/github.com\/danielstorey\/adapt-backgroundScroll",
+      "columnD": "yes",
+      "columnE": "",
+      "columnF": "",
+      "id": 7
+  }, {
+      "columnA": "",
+      "columnB": "adapt-contrib-confidenceSlider",
+      "columnC": "https:\/\/github.com\/adaptlearning\/adapt-contrib-confidenceSlider",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 8
+  }, {
+      "columnA": "",
+      "columnB": "adapt-hotgrid",
+      "columnC": "https:\/\/github.com\/cgkineo\/adapt-hotgrid",
+      "columnD": "yes",
+      "columnE": "yes",
+      "columnF": "",
+      "id": 9
+  }
+]
