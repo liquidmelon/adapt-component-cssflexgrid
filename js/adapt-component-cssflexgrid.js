@@ -137,15 +137,15 @@ define(function(require) {
 
             // Plugin Model
             var Plugin = Backbone.Model.extend({
-            	defaults: {
-            		columnA: 'columnA',
-            		columnB: 'columnB',
-            		columnC: 'columnC',
-            		columnD: 'columnD',
-            		columnE: 'columnE',
-            		columnF: 'columnF',
-            		id: 0
-            	}
+                defaults: {
+                    columnA: 'columnA',
+                    columnB: 'columnB',
+                    columnC: 'columnC',
+                    columnD: 'columnD',
+                    columnE: 'columnE',
+                    columnF: 'columnF',
+                    id: 0
+                }
             });
 
             // A List of Plugins
@@ -156,66 +156,68 @@ define(function(require) {
             // View for all All Plugins
             AllPluginsView = Backbone.View.extend({
 
-              //remove the view
-              destroy: function(){
-                this.unbind();
-                this.remove();
-              },
+                //remove the view
+                destroy: function(){
+                    this.unbind();
+                    this.remove();
+                },
 
-            	render: function() {
-            		this.collection.each(function(plugin) {
+                render: function() {
 
-                  var isYes = plugin.get("columnD");
+                    this.collection.each(function(plugin) {
 
-                  if(isYes && isYes.toString) {
-                    isYes = isYes.toString();
-                    isYes = isYes.toLowerCase();
-                    isYes = isYes.substring(0,1);
-                  }
-                  if(isYes != "y"){
-                    //if not yes, set to nothing to prevent checkmark
-                    plugin.set("columnD", "");
-                  }
+                        var isYes = plugin.get("columnD");
 
-                  isYes = plugin.get("columnE");
+                        if(isYes && isYes.toString) {
+                            isYes = isYes.toString();
+                            isYes = isYes.toLowerCase();
+                            isYes = isYes.substring(0,1);
+                        }
+                        if(isYes != "y"){
+                            //if not yes, set to nothing to prevent checkmark
+                            plugin.set("columnD", "");
+                        }
 
-                  if(isYes && isYes.toString) {
-                    isYes = isYes.toString();
-                    isYes = isYes.toLowerCase();
-                    isYes = isYes.substring(0,1);
-                  }
-                  if(isYes != "y"){
-                    //if not yes, set to nothing to prevent checkmark
-                    plugin.set("columnE", "");
-                  }
+                        isYes = plugin.get("columnE");
 
-                  //set icons
-                  plugin.set('checkcircleIcon', CCI);
-                  plugin.set('githubIcon', GHI);
+                        if(isYes && isYes.toString) {
+                            isYes = isYes.toString();
+                            isYes = isYes.toLowerCase();
+                            isYes = isYes.substring(0,1);
+                        }
+                        if(isYes != "y"){
+                            //if not yes, set to nothing to prevent checkmark
+                            plugin.set("columnE", "");
+                        }
 
-                  //make one view, and add to this view
-                  var OPV = new OnePluginView({ model: plugin });
-            			this.$el.append(OPV.render().el);
+                        //set icons
+                        plugin.set('checkcircleIcon', CCI);
+                        plugin.set('githubIcon', GHI);
 
-            		}, this);
+                        //make one view, and add to this view
+                        var OPV = new OnePluginView({ model: plugin });
+                        this.$el.append(OPV.render().el);
 
-                //add style this view
-                this.$el.addClass('cfg-grid-container');
+                    }, this);
 
-            		return this;
+                    //add style this view
+                    this.$el.addClass('cfg-grid-container');
 
-            	}
+                    return this;
+
+                }
+
             });
 
             // View for One Plugin
             var OnePluginView = Backbone.View.extend({
 
-              render: function() {
-                var data = this.model.toJSON();
-                var template = Handlebars.templates["cssflexgrid-thePlugin"];
-                this.$el.html(template(data));
-                return this;
-              }
+                render: function() {
+                    var data = this.model.toJSON();
+                    var template = Handlebars.templates["cssflexgrid-thePlugin"];
+                    this.$el.html(template(data));
+                    return this;
+                }
 
             });
 
@@ -243,20 +245,20 @@ define(function(require) {
             $('#cfg-menus').removeClass('visited');
 
             if(event.currentTarget.id == "cfg-components"){
-              $('#cfg-components').addClass('visited');
-              PC.reset(data0);
+                $('#cfg-components').addClass('visited');
+                PC.reset(data0);
             }
             else if(event.currentTarget.id == "cfg-extensions"){
-              $('#cfg-extensions').addClass('visited');
-              PC.reset(data1);
+                $('#cfg-extensions').addClass('visited');
+                PC.reset(data1);
             }
             else if(event.currentTarget.id == "cfg-themes"){
-              $('#cfg-themes').addClass('visited');
-              PC.reset(data2);
+                $('#cfg-themes').addClass('visited');
+                PC.reset(data2);
             }
             else if(event.currentTarget.id == "cfg-menus"){
-              $('#cfg-menus').addClass('visited');
-              PC.reset(data3);
+                $('#cfg-menus').addClass('visited');
+                PC.reset(data3);
             }
 
             APV = new AllPluginsView({ collection: PC });
