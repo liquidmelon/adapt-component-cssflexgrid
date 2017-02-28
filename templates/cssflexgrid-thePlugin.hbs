@@ -1,0 +1,18 @@
+<div class="cfg-flexbox">
+    <div class="cfg-col1"><p><b>{{columnB}}</b>{{#if columnF}}<br>{{columnF}}{{/if}}{{#if columnA}}<br>[{{columnA}}]{{/if}}</p></div>
+    <div class="cfg-col2 cfg-center">
+        {{#if columnD}}<div class="cfg-svgnoa">
+            <object data="{{checkcircleIcon}}" type="image/svg+xml" class="checkcircle" alt="{{columnD}}"/>
+        </div>{{/if}}
+    </div>
+    <div class="cfg-col2 cfg-center">
+        {{#if columnE}}<div class="cfg-svgnoa">
+            <object data="{{checkcircleIcon}}" type="image/svg+xml" class="checkcircle" alt="{{columnE}}"/>
+        </div>{{/if}}
+    </div>
+    <div class="cfg-col2 cfg-center">
+        <a href={{columnC}} class="cfg-svga" target="_blank">
+            <object data="{{githubIcon}}" type="image/svg+xml" class="githubicon" alt="{{columnC}}"/>
+        </a>
+    </div>
+</div>
