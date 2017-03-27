@@ -1,6 +1,8 @@
 # adapt-component-cssflexgrid
 
-**CSS Flex Grid** is a *presentation component* that displays json-formatted data in a css flexbox and was derived from [adaptlearning's text component](https://github.com/adaptlearning/adapt-contrib-text).
+**CSS Flex Grid** is a *presentation component* for the [Adapt framework](https://github.com/adaptlearning/adapt_framework) that displays json-formatted data in a css flexbox.
+
+**CSS Flex Grid** is based on [adaptlearning's text component](https://github.com/adaptlearning/adapt-contrib-text) and incorporates modern styling techniques along with data collection from an external source.
 
 
 
@@ -12,10 +14,11 @@
 
 ## Notes
 
-this plugin is an example that demonstrates how to create a grid with a css flexbox and fill it with data from a public google doc.* data can also be loaded from a local json file. the data is passed into a separate template and rendered in it’s own view, which is then rendered in the component’s view. an svg icon is used as a clickable link.
-
+this plugin demonstrates how to create a grid with a css flexbox and fill it with data from a public google doc.* data can also be loaded from a local json file. the data is passed into a separate template and rendered in it’s own view, which is then rendered in the component’s view. an svg icon is used as a clickable link.
 
 to get data from the online google doc, set the data source to “remote”, but you’ll have to run it off of a web server because the php won’t run in the AT. set the data source to “local” (which is default) when running it in the AT, and it’ll grab data from the included json files.
+
+also note that this plugin is more for reference than for production. it is suggested to make a fork to support your own scenario.
 
 *[example document](https://docs.google.com/spreadsheets/d/1XDPyohslGe3bFrLo4U_Rr-muIzRVojnShYmmEKqOqnQ/edit#gid=102731156) courtesy of Helen Maffin
 
@@ -43,12 +46,6 @@ including extra assets
 
 
 
-## Usage
-
-this component is more for reference than production. it’s suggested to duplicate the component and re-code it to fit your own scenario.
-
-
-
 ## Possibilities
 
 scale up or down (more/less flexboxes)
@@ -73,8 +70,10 @@ and in theory, the logic involved could probably be expanded to populate an enti
 
 ## Limitations
 
-No known limitations.   
+not known at this time
+
 
 
 ----------------------------
-**Version number:**  0.0.1
+**Version number:** 0.0.1.1<br>
+**Framework versions:** ^2.0.0
