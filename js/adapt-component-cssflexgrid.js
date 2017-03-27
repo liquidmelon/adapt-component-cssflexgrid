@@ -150,7 +150,7 @@ define(function(require) {
 
             // A List of Plugins
             PluginCollection = Backbone.Collection.extend({
-            	model: Plugin
+                model: Plugin
             });
 
             // View for all All Plugins
